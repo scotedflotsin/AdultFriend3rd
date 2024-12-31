@@ -1,0 +1,141 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollview"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Linear Layout for Header Section -->
+        <LinearLayout
+            android:id="@+id/linearLayout9"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_80sdp"
+            android:background="#E0DDDD"
+            android:gravity="center_vertical"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="@dimen/_20sdp"
+                tools:layout_editor_absoluteY="52dp">
+
+                <ImageView
+                    android:id="@+id/backbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/back_button_bg"
+                    android:backgroundTint="@color/white"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:padding="@dimen/_10sdp"
+                    android:src="@drawable/baseline_arrow_back_24"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_imagechat"
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_50sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/profile"
+                    app:civ_border_color="#FF000000"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/chatname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_30sdp"
+                    android:text="Cynthia"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_14sdp"
+                    app:layout_constraintBottom_toBottomOf="@+id/backbutton"
+                    app:layout_constraintStart_toEndOf="@+id/backbutton"
+                    app:layout_constraintTop_toTopOf="@+id/backbutton" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="wrap_content"
+                    android:indeterminateTint="@color/pink"
+                    android:progressTint="@color/pink"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="@+id/profile_imagechat"
+                    app:layout_constraintEnd_toEndOf="@+id/profile_imagechat"
+
+                    app:layout_constraintStart_toStartOf="@+id/profile_imagechat"
+                    app:layout_constraintTop_toTopOf="@+id/profile_imagechat" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+        <!-- Chat Messages RecyclerView -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_above="@+id/chatInputLayout"
+            android:layout_below="@+id/linearLayout9"
+            android:layout_marginStart="0dp"
+android:background="@color/white"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:visibility="visible"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="0.0"
+            tools:listitem="@layout/chat_item_recycler" />
+
+        <!-- Chat Input Section -->
+
+        <LinearLayout
+            android:id="@+id/chatInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/chatInput"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/chat_type_bg"
+                android:focusable="true"
+                android:hint="Type a message"
+                android:inputType="text"
+                android:maxLines="4"
+                android:padding="15dp" />
+
+            <ImageView
+                android:id="@+id/send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:background="@drawable/back_button_bg"
+                android:backgroundTint="@color/pink"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="@dimen/_12sdp"
+                android:src="@drawable/baseline_send_24"
+                app:tint="@color/white" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

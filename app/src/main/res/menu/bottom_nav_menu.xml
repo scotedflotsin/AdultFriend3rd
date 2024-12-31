@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/like"
+        android:icon="@drawable/like"
+        android:title="Like" />
+
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/chat"
+        android:title="Chat" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/profile_bottom"
+        android:title="Profile" />
+
+</menu>

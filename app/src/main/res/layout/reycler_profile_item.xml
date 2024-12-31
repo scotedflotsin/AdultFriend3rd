@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="@dimen/_5sdp"
+>
+
+    <!-- Profile Container -->
+    <LinearLayout
+        android:layout_width="@dimen/_138sdp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nearby_rouned_bg"
+        android:orientation="vertical"
+        android:padding="@dimen/_3sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintWidth_percent="0.5">
+
+        <!-- Profile Image -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_170sdp"
+            app:cardCornerRadius="@dimen/_20sdp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/white">
+
+            <ImageView
+                android:id="@+id/profileImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/girl" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Spacing -->
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_8sdp" />
+
+        <!-- Profile Name -->
+        <TextView
+            android:id="@+id/profileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="Mary"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Profile Age -->
+        <TextView
+            android:id="@+id/profileAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_gravity="start"
+            android:paddingBottom="@dimen/_15sdp"
+            android:text="24 years old"
+            android:layout_marginVertical="@dimen/_2sdp"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

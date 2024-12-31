@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="maroon">#A71537</color>
+    <color name="gray">#E7E4E4</color>
+    <color name="light_orange">#F96969</color>
+    <color name="pink">#C7185E</color>
+    <color name="green">#297C31</color>
+    <color name="blue">#2592F6</color>
+    <color name="dark_orange">#FF5251</color>
+    <color name="dark_gray">#515151</color>
+    <color name="grey_bottom">#EFEFEF</color>
+    <color name="solid_pink">#FF1E54</color>
+    <color name="like_selector_color">#ADADAD</color>
+</resources>
