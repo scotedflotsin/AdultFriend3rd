@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace = "com.fetlife.imetlife"
+    namespace = "com.fetlifenew.imetlife"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.fetlife.imetlife"
+        applicationId = "com.fetlifenew.imetlife"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

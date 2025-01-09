@@ -2,10 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="maroon">#A71537</color>
+    <color name="maroon">#673AB7</color>
     <color name="gray">#E7E4E4</color>
     <color name="light_orange">#F96969</color>
-    <color name="pink">#C7185E</color>
+    <color name="pink">#673AB7</color>
     <color name="green">#297C31</color>
     <color name="blue">#2592F6</color>
     <color name="dark_orange">#FF5251</color>

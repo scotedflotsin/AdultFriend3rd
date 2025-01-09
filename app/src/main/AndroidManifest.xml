@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.fetlife.imetlife">
+    package="com.fetlifenew.imetlife">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -17,29 +17,29 @@
         android:theme="@style/Theme.IMetLife"
         tools:targetApi="31">
         <activity
-            android:name="com.fetlife.imetlife.RedirectActivity"
+            android:name="com.fetlifenew.imetlife.RedirectActivity"
             android:exported="false" />
         <activity
             android:name=".webview"
             android:exported="false" />
         <activity
-            android:name="com.fetlife.imetlife.DetailProfileView"
+            android:name="com.fetlifenew.imetlife.DetailProfileView"
             android:exported="false" />
         <activity
-            android:name="com.fetlife.imetlife.Chatting"
+            android:name="com.fetlifenew.imetlife.Chatting"
             android:exported="true"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.fetlife.imetlife.SetupProfile"
+            android:name="com.fetlifenew.imetlife.SetupProfile"
             android:exported="true" />
         <activity
-            android:name="com.fetlife.imetlife.AccountCreation"
+            android:name="com.fetlifenew.imetlife.AccountCreation"
             android:exported="false" />
         <activity
-            android:name="com.fetlife.imetlife.Welcome"
+            android:name="com.fetlifenew.imetlife.Welcome"
             android:exported="false" />
         <activity
-            android:name="com.fetlife.imetlife.Splash_Screen"
+            android:name="com.fetlifenew.imetlife.Splash_Screen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -48,7 +48,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.fetlife.imetlife.MainActivity"
+            android:name="com.fetlifenew.imetlife.MainActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize" />
 

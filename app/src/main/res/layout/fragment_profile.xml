@@ -314,16 +314,16 @@
                 app:layout_constraintTop_toBottomOf="@+id/cardView">
 
             </androidx.appcompat.widget.AppCompatButton>
-            <TextView
-                android:id="@+id/t"
-                android:layout_width="match_parent"
-                android:visibility="visible"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="@dimen/_13sdp"
-                android:textAlignment="center"
-                android:paddingVertical="@dimen/_20sdp"
-                android:text="Developed by Harsh-Verma"
-                android:textSize="@dimen/_13sdp" />
+<!--            <TextView-->
+<!--                android:id="@+id/t"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:visibility="visible"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="@dimen/_13sdp"-->
+<!--                android:textAlignment="center"-->
+<!--                android:paddingVertical="@dimen/_20sdp"-->
+<!--                android:text="Developed by Harsh-Verma"-->
+<!--                android:textSize="@dimen/_13sdp" />-->
         </LinearLayout>
     </android.widget.ScrollView>
 
