@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.fetlifenew.imetlife">
+    package="com.fetclubbella.fetclub">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -17,29 +17,30 @@
         android:theme="@style/Theme.IMetLife"
         tools:targetApi="31">
         <activity
-            android:name="com.fetlifenew.imetlife.RedirectActivity"
+            android:name="com.fetclubbella.fetclub.RedirectActivity"
             android:exported="false" />
         <activity
             android:name=".webview"
+            android:exported="false"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name="com.fetclubbella.fetclub.DetailProfileView"
             android:exported="false" />
         <activity
-            android:name="com.fetlifenew.imetlife.DetailProfileView"
-            android:exported="false" />
-        <activity
-            android:name="com.fetlifenew.imetlife.Chatting"
+            android:name="com.fetclubbella.fetclub.Chatting"
             android:exported="true"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.fetlifenew.imetlife.SetupProfile"
+            android:name="com.fetclubbella.fetclub.SetupProfile"
             android:exported="true" />
         <activity
-            android:name="com.fetlifenew.imetlife.AccountCreation"
+            android:name="com.fetclubbella.fetclub.AccountCreation"
             android:exported="false" />
         <activity
-            android:name="com.fetlifenew.imetlife.Welcome"
+            android:name="com.fetclubbella.fetclub.Welcome"
             android:exported="false" />
         <activity
-            android:name="com.fetlifenew.imetlife.Splash_Screen"
+            android:name="com.fetclubbella.fetclub.Splash_Screen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -48,7 +49,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.fetlifenew.imetlife.MainActivity"
+            android:name="com.fetclubbella.fetclub.MainActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize" />
 

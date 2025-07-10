@@ -2,7 +2,7 @@
 
     <item
         android:id="@+id/home"
-        android:icon="@drawable/home"
+        android:icon="@drawable/homenew"
         android:title="Home" />
 
     <item

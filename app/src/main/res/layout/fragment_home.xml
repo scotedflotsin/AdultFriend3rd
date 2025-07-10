@@ -21,7 +21,7 @@
             android:fontFamily="@font/charm_bold"
             android:text="Dating"
             android:textAlignment="center"
-            android:textColor="@color/solid_pink"
+            android:textColor="@color/maroon"
             android:textSize="@dimen/_27sdp"
             android:textStyle="bold">
 
@@ -47,7 +47,8 @@
                 android:src="@drawable/heart"
                 app:layout_constraintBottom_toBottomOf="@+id/textView"
                 app:layout_constraintEnd_toStartOf="@+id/textView"
-                app:layout_constraintTop_toTopOf="@+id/textView">
+                app:layout_constraintTop_toTopOf="@+id/textView"
+                app:tint="@color/maroon">
 
             </ImageView>
 

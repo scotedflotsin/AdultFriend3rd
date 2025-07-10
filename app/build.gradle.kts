@@ -1,5 +1,3 @@
-import org.jetbrains.kotlin.storage.CacheResetOnProcessCanceled.enabled
-
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
@@ -7,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace = "com.fetlifenew.imetlife"
-    compileSdk = 35
+    namespace = "com.fetclubbella.fetclub"
+    compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.fetlifenew.imetlife"
+        applicationId = "com.fetclubbella.fetclub"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
@@ -53,6 +51,7 @@ dependencies {
     implementation(libs.play.services.cast.framework)
     implementation(libs.firebase.storage)
     implementation(libs.firebase.firestore)
+    implementation(libs.firebase.analytics)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
