@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.fetclubbella.fetclub"
+    namespace = "com.adultfriendbella.adultfre"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.fetclubbella.fetclub"
+        applicationId = "com.adultfriendbella.adultfre"
         minSdk = 24
         targetSdk = 36
         versionCode = 1

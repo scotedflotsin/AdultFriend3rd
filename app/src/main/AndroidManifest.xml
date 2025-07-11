@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.fetclubbella.fetclub">
+    package="com.adultfriendbella.adultfre">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -17,30 +17,30 @@
         android:theme="@style/Theme.IMetLife"
         tools:targetApi="31">
         <activity
-            android:name="com.fetclubbella.fetclub.RedirectActivity"
+            android:name="com.adultfriendbella.adultfre.RedirectActivity"
             android:exported="false" />
         <activity
             android:name=".webview"
             android:exported="false"
             tools:ignore="MissingClass" />
         <activity
-            android:name="com.fetclubbella.fetclub.DetailProfileView"
+            android:name="com.adultfriendbella.adultfre.DetailProfileView"
             android:exported="false" />
         <activity
-            android:name="com.fetclubbella.fetclub.Chatting"
+            android:name="com.adultfriendbella.adultfre.Chatting"
             android:exported="true"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name="com.fetclubbella.fetclub.SetupProfile"
+            android:name="com.adultfriendbella.adultfre.SetupProfile"
             android:exported="true" />
         <activity
-            android:name="com.fetclubbella.fetclub.AccountCreation"
+            android:name="com.adultfriendbella.adultfre.AccountCreation"
             android:exported="false" />
         <activity
-            android:name="com.fetclubbella.fetclub.Welcome"
+            android:name="com.adultfriendbella.adultfre.Welcome"
             android:exported="false" />
         <activity
-            android:name="com.fetclubbella.fetclub.Splash_Screen"
+            android:name="com.adultfriendbella.adultfre.Splash_Screen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -49,7 +49,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.fetclubbella.fetclub.MainActivity"
+            android:name="com.adultfriendbella.adultfre.MainActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize" />
 

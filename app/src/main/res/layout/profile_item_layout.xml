@@ -109,7 +109,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginHorizontal="8dp"
                             android:background="?attr/selectableItemBackgroundBorderless"
-                            android:src="@drawable/group_169" />
+                            android:src="@drawable/adultlike" />
                     </LinearLayout>
                 </LinearLayout>
                 <!-- Profile Details Section -->

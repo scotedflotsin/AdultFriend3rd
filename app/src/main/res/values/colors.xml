@@ -2,15 +2,15 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="maroon">#FF9800</color>
+    <color name="maroon">#740DD5</color>
     <color name="gray">#E7E4E4</color>
     <color name="light_orange">#F96969</color>
-    <color name="pink">#E28A0D</color>
+    <color name="pink">#710ECE</color>
     <color name="green">#297C31</color>
     <color name="blue">#2592F6</color>
     <color name="dark_orange">#FF5251</color>
     <color name="dark_gray">#515151</color>
     <color name="grey_bottom">#EFEFEF</color>
-    <color name="solid_pink">#FF9800</color>
+    <color name="solid_pink">#710ECE</color>
     <color name="like_selector_color">#ADADAD</color>
 </resources>
