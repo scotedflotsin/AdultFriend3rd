@@ -1,5 +1,6 @@
 package com.adultfriendbella.adultfre
 
+
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
@@ -12,6 +13,7 @@ import com.adultfriendbella.adultfre.Utils.CustomIntent
 import com.adultfriendbella.adultfre.Utils.SaveUserDetails
 import com.adultfriendbella.adultfre.databinding.ActivityAccountCreationBinding
 import com.google.firebase.auth.FirebaseAuth
+
 
 
 class AccountCreation : AppCompatActivity() {

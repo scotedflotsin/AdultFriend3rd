@@ -1,0 +1,125 @@
+{
+  "project_info": {
+    "project_number": "841167444455",
+    "firebase_url": "https://cloudsochats-default-rtdb.firebaseio.com",
+    "project_id": "cloudsochats",
+    "storage_bucket": "cloudsochats.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841167444455:android:8cbd226deecb21f5314542",
+        "android_client_info": {
+          "package_name": "com.adultfriendbella.adultfre"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw-R6kr-jRuYvDzk7HhSH1BVkRanbixa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841167444455:android:03aad222c9d03c25314542",
+        "android_client_info": {
+          "package_name": "com.example.imetlife"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw-R6kr-jRuYvDzk7HhSH1BVkRanbixa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841167444455:android:8be655f6773d411f314542",
+        "android_client_info": {
+          "package_name": "com.example.xmenu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw-R6kr-jRuYvDzk7HhSH1BVkRanbixa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841167444455:android:ba2223c2a696b588314542",
+        "android_client_info": {
+          "package_name": "com.fetclubbella.fetclub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw-R6kr-jRuYvDzk7HhSH1BVkRanbixa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841167444455:android:3495cbe2e3d53af5314542",
+        "android_client_info": {
+          "package_name": "com.fetlife.imetlife"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw-R6kr-jRuYvDzk7HhSH1BVkRanbixa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:841167444455:android:50d83f33223c8b91314542",
+        "android_client_info": {
+          "package_name": "com.fetlifenew.imetlife"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw-R6kr-jRuYvDzk7HhSH1BVkRanbixa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
